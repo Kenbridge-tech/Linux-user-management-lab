@@ -1,6 +1,6 @@
 # Linux-user-management-lab
 
-This lab project is part my Google Cybersecurity Professional Certificate coursework, where I explored authentication and access management in Linux.
+This lab project is part my **Google Cybersecurity Professional Certificate** coursework, where I explored **authentication** and **access management** in Linux.
 
 In this simulation, I practice some real-world tasks that security analysts handle every day. These practices gave me hands-on experience with:
 
@@ -18,16 +18,35 @@ In this simulation, I practice some real-world tasks that security analysts hand
 
 In this lab, I went through the complete lifecycle of a Linux user account:
 
-Onboarding: Created a new user and placed them in the right group for their role.
+- **Onboarding**: Created a new user and placed them in the right group for their role.
 
-Access Management: Assigned file ownership so they could contribute to a project securely.
+- **Access Management**: Assigned file ownership so they could contribute to a project securely.
 
-Role Change: Adjusted their access permissions when their responsibilities changed.
+- **Role Change**: Adjusted their access permissions when their responsibilities changed.
 
-Offboarding: Safely removed the user account once they left the organization.
+- **Offboarding**: Safely removed the user account once they left the organization.
 
 ---
 
-Let's take the walkthrough [Here:](Walkthrough.md)
+## Tools & Environment:
+
+- Operating System: Linux (Bash shell)
+
+- Platform: Google Lab Environment
+
+- User Account: analyst (with sudo privileges)
+
+- Commands Used:
+  - `useradd` = Add a new user
+  - `usermod` = Modify user group memberships
+  - `chown` = Change file ownership
+  - `userdel` = Delete user
+  - `groupdel` = Delete group
+  
+---
+
+Let's take the **walkthrough** [Here:](Walkthrough.md)
+
+**Executive Summary** [Here:](docs/report.md)
 
 ----
