@@ -4,7 +4,7 @@ This is a step-by-step walkthrough with the commands I used in this simulation.
 
 ---
 
-### **Task 1: Add a New User**  
+### **Step 1: Add a New User**  
 
 A new employee, named `researcher9`, was hired to joined the Research department.
 
@@ -24,7 +24,7 @@ At this stage, the employee was successfully onboarded, with their account tied 
 
 ---
 
-### **Task 2: Assign File Ownership**
+### **Step 2: Assign File Ownership**
 
 The new employee was responsible for managing a project file named `project_r.txt`, located inside the `projects` directory:
 ```bash
@@ -43,18 +43,18 @@ This gave the new employee full control of their project file `project_r.txt` wi
 
 ---
 
-### **Task 3: Add the User to a Secondary Group**
+### **Step 3: Add the User to a Secondary Group**
 
 A few months later, the employee also started contributing to Sales projects. To handle this without affecting their Research role, I added them to a second group: `sales_team`
 ```bash
 sudo usermod -a -G sales_team researcher9
 ```
 
-![New employee added to secondary group](screenshots/Added_to_secondary_group)
+![New employee added to secondary group](screenshots/Added_to_secondary_group.png)
 
 Now they could access Sales resources while still keeping their Research permissions.
 
-### **Task 4: Delete a User**
+### **Step 4: Delete a User**
 
 When the employee eventually left the organization, I followed **offboarding best practices** by cleaning up their account and associated group:
 
@@ -68,7 +68,7 @@ Deleted the leftover group:
 sudo groupdel researcher9
 ```
 
-![User removed from organization](screenshots/Reasearcher_deleted)
+![User removed from organization](screenshots/Reasearcher_deleted.png)
 
 This prevented orphaned accounts or groups. It's also an important step to reduce insider threats.
 
