@@ -87,4 +87,4 @@ This lab helped me understand the ***end-to-end user lifecycle management*** in 
 By working through this simulation, I gained more confidence in using Linux commands that system administrators, SOC teams, and security analysts rely on daily.
 
 ---
-Thank you for staying to the End...
+Thank you for staying to the End!
