@@ -14,7 +14,7 @@ In this simulation, I practice some real-world tasks that security analysts hand
 
 ---
 
-## Project Overview
+## Project Overview:
 
 In this lab, I went through the complete lifecycle of a Linux user account:
 
@@ -28,6 +28,6 @@ Offboarding: Safely removed the user account once they left the organization.
 
 ---
 
-Let's take the walkthrough [Here:]()
+Let's take the walkthrough [Here:](Walkthrough.md)
 
----
+----
